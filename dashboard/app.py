@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def load_data():
-    df_day = pd.read_csv('day_clean.csv')
+    df_day = pd.read_csv('dashboard/day_clean.csv')
     return df_day
 
 df_day = load_data()
