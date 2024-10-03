@@ -5,7 +5,7 @@ import seaborn as sns
 
 # Load data
 def load_data():
-    df_day = pd.read_csv('../data/day.csv')
+    df_day = pd.read_csv('https://github.com/YanuarAH/bike_sharing_submission/blob/5feb6ec527a52206b295406377806fcd59ccef39/data/day.csv')
     return df_day
 
 df_day = load_data()
